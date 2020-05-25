@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/addNumber"
+                android:textSize="20dp"
+                android:text="Working With Button"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:id="@+id/customToast"
+                android:textSize="20dp"
+                android:text="Custom Toast"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:id="@+id/toggleButton"
+                android:textSize="20dp"
+                android:text="Toggle Button"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Check Box"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Radio Button"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Alert Dialog "
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Working With Button"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Spinner"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Auto Complete TextView"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="ListView"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+            <Button
+                android:textSize="20dp"
+                android:text="Rating Bar"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Web View"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Seek Bar"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Date Picker"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Time Picker"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Analog And Digital"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Progress Bar"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Image Switcher"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Image Slider"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="View Stub"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Tab Layout"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Tab Layout With Frame Layout"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Search View"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="Search View On ToolBar"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:textSize="20dp"
+                android:text="EditText with TextWatche"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
