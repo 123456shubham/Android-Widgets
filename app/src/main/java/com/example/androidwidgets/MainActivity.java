@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ToggleButton;
 
 import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
+import com.example.androidwidgets.togglebutton.ToogleButtonExample;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -23,6 +25,9 @@ Button buttonAdd;
 
 @BindView(R.id.customToast)
 Button buttonCustomToast;
+
+@BindView(R.id.toggleButton)
+Button buttonTogglrbutton;
 
 
     @Override
@@ -45,6 +50,11 @@ Button buttonCustomToast;
         @OnClick(R.id.customToast)
          public void buttonCustomToast(){
         startActivity(new Intent(MainActivity.this, CustomToastExample.class));
+        }
+
+        @OnClick(R.id.toggleButton)
+        public void buttonTogglrbutton(){
+        startActivity(new Intent(MainActivity.this, ToogleButtonExample.class));
         }
 
 

@@ -66,14 +66,7 @@
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
 
-            <Button
-                android:textSize="20dp"
-                android:text="Working With Button"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
+
             <Button
                 android:textSize="20dp"
                 android:text="Spinner"
