@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import com.example.androidwidgets.WorkingWithButton.Add;
+import com.example.androidwidgets.customToastExample.CustomToastExample;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     private Unbinder unBinder;
 @BindView(R.id.addNumber)
 Button buttonAdd;
+
+@BindView(R.id.customToast)
+Button buttonCustomToast;
 
 
     @Override
@@ -36,6 +40,11 @@ Button buttonAdd;
         @OnClick(R.id.addNumber)
         public void add(){
         startActivity(new Intent(MainActivity.this, Add.class));
+        }
+
+        @OnClick(R.id.customToast)
+         public void buttonCustomToast(){
+        startActivity(new Intent(MainActivity.this, CustomToastExample.class));
         }
 
 
