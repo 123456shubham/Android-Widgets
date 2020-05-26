@@ -50,6 +50,7 @@
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
             <Button
+                android:id="@+id/checkbox_Example"
                 android:textSize="20dp"
                 android:text="Check Box"
                 android:background="@drawable/border_button"

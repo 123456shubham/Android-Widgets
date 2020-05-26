@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ToggleButton;
 
+import com.example.androidwidgets.Pizza.PizzaExample;
 import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
 import com.example.androidwidgets.togglebutton.ToogleButtonExample;
@@ -28,6 +29,9 @@ Button buttonCustomToast;
 
 @BindView(R.id.toggleButton)
 Button buttonTogglrbutton;
+
+@BindView(R.id.checkbox_Example)
+Button buttoncheckBox;
 
 
     @Override
@@ -55,6 +59,10 @@ Button buttonTogglrbutton;
         @OnClick(R.id.toggleButton)
         public void buttonTogglrbutton(){
         startActivity(new Intent(MainActivity.this, ToogleButtonExample.class));
+        }
+        @OnClick(R.id.checkbox_Example)
+        public void ButtoncheckBox(){
+        startActivity(new Intent(MainActivity.this, PizzaExample.class));
         }
 
 
