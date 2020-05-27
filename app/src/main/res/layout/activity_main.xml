@@ -67,9 +67,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
+            <Button
+                android:id="@+id/alert_dialog_box"
+                android:textSize="20dp"
+                android:text="Alert Dialog Box"
+                android:background="@drawable/border_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="InvalidId" />
 
 
             <Button
+                android:id="@+id/spinner"
                 android:textSize="20dp"
                 android:text="Spinner"
                 android:background="@drawable/border_button"

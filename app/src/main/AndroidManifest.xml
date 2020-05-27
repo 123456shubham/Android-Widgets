@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".radioButtonExample.ColourChange"></activity>
+        <activity android:name=".alert_dialog_box.WarningExample"></activity>
+        <activity android:name=".radioButtonExample.ColourChange" />
         <activity android:name=".Pizza.PizzaExample" />
         <activity android:name=".togglebutton.ToogleButtonExample" />
         <activity android:name=".customToastExample.CustomToastExample" />
