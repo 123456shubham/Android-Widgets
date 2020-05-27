@@ -12,6 +12,7 @@ import android.widget.ToggleButton;
 import com.example.androidwidgets.Pizza.PizzaExample;
 import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
+import com.example.androidwidgets.radioButtonExample.ColourChange;
 import com.example.androidwidgets.togglebutton.ToogleButtonExample;
 
 import butterknife.BindView;
@@ -32,6 +33,10 @@ Button buttonTogglrbutton;
 
 @BindView(R.id.checkbox_Example)
 Button buttoncheckBox;
+
+@BindView(R.id.radioButton)
+Button buttonRadiobutton;
+
 
 
     @Override
@@ -64,7 +69,10 @@ Button buttoncheckBox;
         public void ButtoncheckBox(){
         startActivity(new Intent(MainActivity.this, PizzaExample.class));
         }
-
+        @OnClick(R.id.radioButton)
+    public void buttonRadiobutton(){
+        startActivity(new Intent(MainActivity.this, ColourChange.class));
+        }
 
     }
 
