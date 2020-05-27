@@ -79,7 +79,7 @@
 
 
             <Button
-                android:id="@+id/spinner"
+                android:id="@+id/spinner1"
                 android:textSize="20dp"
                 android:text="Spinner"
                 android:background="@drawable/border_button"

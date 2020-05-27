@@ -14,6 +14,7 @@ import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.alert_dialog_box.WarningExample;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
 import com.example.androidwidgets.radioButtonExample.ColourChange;
+import com.example.androidwidgets.spinerPackage.SpinnerExample;
 import com.example.androidwidgets.togglebutton.ToogleButtonExample;
 
 import butterknife.BindView;
@@ -41,6 +42,8 @@ Button buttonRadiobutton;
 @BindView(R.id.alert_dialog_box)
 Button buttonAlertBox;
 
+@BindView(R.id.spinner1)
+Button buttonSpinner;
 
 
 
@@ -82,6 +85,10 @@ Button buttonAlertBox;
         @OnClick(R.id.alert_dialog_box)
         public void buttonAlertBox(){
         startActivity(new Intent(MainActivity.this, WarningExample.class));
+        }
+        @OnClick(R.id.spinner1)
+         public void buttonSpinner(){
+        startActivity(new Intent(MainActivity.this, SpinnerExample.class));
         }
 
     }
