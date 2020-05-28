@@ -88,6 +88,7 @@
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
             <Button
+                android:id="@+id/auto_text_view"
                 android:textSize="20dp"
                 android:text="Auto Complete TextView"
                 android:background="@drawable/border_button"
@@ -96,15 +97,9 @@
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
 
+
             <Button
-                android:textSize="20dp"
-                android:text="ListView"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-            <Button
+                android:id="@+id/rating_button"
                 android:textSize="20dp"
                 android:text="Rating Bar"
                 android:background="@drawable/border_button"
@@ -114,6 +109,7 @@
                 tools:ignore="InvalidId" />
 
             <Button
+                android:id="@+id/web_view_button"
                 android:textSize="20dp"
                 android:text="Web View"
                 android:background="@drawable/border_button"
@@ -123,6 +119,7 @@
                 tools:ignore="InvalidId" />
 
             <Button
+                android:id="@+id/seek_bar_button"
                 android:textSize="20dp"
                 android:text="Seek Bar"
                 android:background="@drawable/border_button"

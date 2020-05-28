@@ -6,16 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ToggleButton;
 
 import com.example.androidwidgets.Pizza.PizzaExample;
 import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.alert_dialog_box.WarningExample;
+import com.example.androidwidgets.auto_text_Example.AutoTextExample;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
 import com.example.androidwidgets.radioButtonExample.ColourChange;
+import com.example.androidwidgets.ratingBar.RatingBarExample;
+import com.example.androidwidgets.seekbar.Seek_Bar_Example;
 import com.example.androidwidgets.spinerPackage.SpinnerExample;
 import com.example.androidwidgets.togglebutton.ToogleButtonExample;
+import com.example.androidwidgets.webView.WebViewExample;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -45,6 +50,17 @@ Button buttonAlertBox;
 @BindView(R.id.spinner1)
 Button buttonSpinner;
 
+@BindView(R.id.auto_text_view)
+Button buttonauto;
+
+@BindView(R.id.rating_button)
+Button buttonRating;
+
+@BindView(R.id.web_view_button)
+Button button_web_view;
+
+@BindView(R.id.seek_bar_button)
+Button buttonSeekBar;
 
 
 
@@ -90,6 +106,21 @@ Button buttonSpinner;
          public void buttonSpinner(){
         startActivity(new Intent(MainActivity.this, SpinnerExample.class));
         }
-
+        @OnClick(R.id.auto_text_view)
+          public  void buttonauto(){
+        startActivity(new Intent(MainActivity.this, AutoTextExample.class));
+        }
+        @OnClick(R.id.rating_button)
+         public void buttonRating(){
+        startActivity(new Intent(MainActivity.this, RatingBarExample.class));
+        }
+        @OnClick(R.id.web_view_button)
+        public void button_web_view(){
+        startActivity(new Intent(MainActivity.this, WebViewExample.class));
+        }
+        @OnClick(R.id.seek_bar_button)
+        public void buttonSeekBar(){
+        startActivity(new Intent(MainActivity.this, Seek_Bar_Example.class));
+        }
     }
 
