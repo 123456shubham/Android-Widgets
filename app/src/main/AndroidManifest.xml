@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".seekbar.Seek_Bar_Example"></activity>
+        <activity android:name=".analog_digital_package.Analog_Digital_Example"></activity>
+        <activity android:name=".time_picker_package.Time_Picker_Example" />
+        <activity android:name=".date_picker_pakage.Date_Picker_Example" />
+        <activity android:name=".seekbar.Seek_Bar_Example" />
         <activity android:name=".webView.WebViewExample" />
         <activity android:name=".ratingBar.RatingBarExample" />
         <activity android:name=".auto_text_Example.AutoTextExample" />

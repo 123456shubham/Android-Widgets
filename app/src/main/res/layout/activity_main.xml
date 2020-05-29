@@ -129,6 +129,7 @@
                 tools:ignore="InvalidId" />
 
             <Button
+                android:id="@+id/date_picker_button"
                 android:textSize="20dp"
                 android:text="Date Picker"
                 android:background="@drawable/border_button"
@@ -138,6 +139,7 @@
                 tools:ignore="InvalidId" />
 
             <Button
+                android:id="@+id/time_picker_btn"
                 android:textSize="20dp"
                 android:text="Time Picker"
                 android:background="@drawable/border_button"
@@ -147,12 +149,13 @@
                 tools:ignore="InvalidId" />
 
             <Button
-                android:textSize="20dp"
-                android:text="Analog And Digital"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
+                android:id="@+id/analog_digital_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_button"
+                android:text="Analog And Digital"
+                android:textSize="20dp"
                 tools:ignore="InvalidId" />
 
             <Button
@@ -162,15 +165,6 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border_button"
-                android:text="Alert Dialog "
-                android:textSize="20dp"
                 tools:ignore="InvalidId" />
 
             <Button

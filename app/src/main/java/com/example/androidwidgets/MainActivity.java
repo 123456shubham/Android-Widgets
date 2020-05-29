@@ -13,12 +13,15 @@ import android.widget.ToggleButton;
 import com.example.androidwidgets.Pizza.PizzaExample;
 import com.example.androidwidgets.WorkingWithButton.Add;
 import com.example.androidwidgets.alert_dialog_box.WarningExample;
+import com.example.androidwidgets.analog_digital_package.Analog_Digital_Example;
 import com.example.androidwidgets.auto_text_Example.AutoTextExample;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
+import com.example.androidwidgets.date_picker_pakage.Date_Picker_Example;
 import com.example.androidwidgets.radioButtonExample.ColourChange;
 import com.example.androidwidgets.ratingBar.RatingBarExample;
 import com.example.androidwidgets.seekbar.Seek_Bar_Example;
 import com.example.androidwidgets.spinerPackage.SpinnerExample;
+import com.example.androidwidgets.time_picker_package.Time_Picker_Example;
 import com.example.androidwidgets.togglebutton.ToogleButtonExample;
 import com.example.androidwidgets.webView.WebViewExample;
 
@@ -62,7 +65,14 @@ Button button_web_view;
 @BindView(R.id.seek_bar_button)
 Button buttonSeekBar;
 
+@BindView(R.id.date_picker_button)
+Button button_date_picker;
 
+@BindView(R.id.time_picker_btn)
+Button button_time_picker;
+
+@BindView(R.id.analog_digital_btn)
+Button button_analog_digital_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,5 +132,20 @@ Button buttonSeekBar;
         public void buttonSeekBar(){
         startActivity(new Intent(MainActivity.this, Seek_Bar_Example.class));
         }
+        @OnClick(R.id.date_picker_button)
+        public void button_date_picker(){
+        startActivity(new Intent(MainActivity.this, Date_Picker_Example.class));
+        }
+        @OnClick(R.id.time_picker_btn)
+        public void button_tme_picker(){
+            startActivity(new Intent(MainActivity.this, Time_Picker_Example.class));
+
+        }
+        @OnClick(R.id.analog_digital_btn)
+        public void button_analog_digital_btn(){
+            startActivity(new Intent(MainActivity.this, Analog_Digital_Example.class));
+
+        }
+
     }
 
