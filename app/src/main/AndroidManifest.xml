@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".search_view.SearchView_TollBar"></activity>
+        <activity android:name=".lifeCycle.Life_Cycle_Activity"></activity>
+        <activity android:name=".search_view.SearchView_TollBar" />
         <activity android:name=".search_view.SearchViewActivity" />
         <activity android:name=".prograss_package.Prograss_Bar_Example" />
         <activity android:name=".analog_digital_package.Analog_Digital_Example" />

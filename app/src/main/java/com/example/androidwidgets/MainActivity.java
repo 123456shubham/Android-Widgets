@@ -17,6 +17,7 @@ import com.example.androidwidgets.analog_digital_package.Analog_Digital_Example;
 import com.example.androidwidgets.auto_text_Example.AutoTextExample;
 import com.example.androidwidgets.customToastExample.CustomToastExample;
 import com.example.androidwidgets.date_picker_pakage.Date_Picker_Example;
+import com.example.androidwidgets.lifeCycle.Life_Cycle_Activity;
 import com.example.androidwidgets.prograss_package.Prograss_Bar_Example;
 import com.example.androidwidgets.radioButtonExample.ColourChange;
 import com.example.androidwidgets.ratingBar.RatingBarExample;
@@ -84,7 +85,10 @@ public class MainActivity extends AppCompatActivity {
     Button button_searchView;
 
     @BindView(R.id.serachView_tollbar)
-    Button  button_tollbar;
+    Button button_tollbar;
+
+    @BindView(R.id.life_Cycle)
+    Button button_life_cycle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -170,19 +174,27 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, Analog_Digital_Example.class));
 
     }
+
     @OnClick(R.id.progress_btn)
     public void button_progress() {
         startActivity(new Intent(MainActivity.this, Prograss_Bar_Example.class));
 
     }
+
     @OnClick(R.id.serach_view_button)
-    public void button_searchView(){
+    public void button_searchView() {
         startActivity(new Intent(MainActivity.this, SearchViewActivity.class));
 
     }
+
     @OnClick(R.id.serachView_tollbar)
-    public void button_tollbar(){
+    public void button_tollbar() {
         startActivity(new Intent(MainActivity.this, SearchView_TollBar.class));
+    }
+
+    @OnClick(R.id.life_Cycle)
+    public void button_life_cycle() {
+        startActivity(new Intent(MainActivity.this, Life_Cycle_Activity.class));
     }
 
     }
