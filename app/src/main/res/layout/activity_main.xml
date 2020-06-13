@@ -168,52 +168,9 @@
                 android:layout_height="wrap_content"
                 tools:ignore="InvalidId" />
 
-            <Button
-                android:textSize="20dp"
-                android:text="Image Switcher"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
 
             <Button
-                android:textSize="20dp"
-                android:text="Image Slider"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
-                android:textSize="20dp"
-                android:text="View Stub"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
-                android:textSize="20dp"
-                android:text="Tab Layout"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
-                android:textSize="20dp"
-                android:text="Tab Layout With Frame Layout"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
+                android:id="@+id/serach_view_button"
                 android:textSize="20dp"
                 android:text="Search View"
                 android:background="@drawable/border_button"
@@ -223,17 +180,10 @@
                 tools:ignore="InvalidId" />
 
             <Button
+                android:layout_marginBottom="10dp"
+                android:id="@+id/serachView_tollbar"
                 android:textSize="20dp"
                 android:text="Search View On ToolBar"
-                android:background="@drawable/border_button"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="InvalidId" />
-
-            <Button
-                android:textSize="20dp"
-                android:text="EditText with TextWatche"
                 android:background="@drawable/border_button"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"

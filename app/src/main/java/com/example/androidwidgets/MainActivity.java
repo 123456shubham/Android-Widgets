@@ -20,6 +20,8 @@ import com.example.androidwidgets.date_picker_pakage.Date_Picker_Example;
 import com.example.androidwidgets.prograss_package.Prograss_Bar_Example;
 import com.example.androidwidgets.radioButtonExample.ColourChange;
 import com.example.androidwidgets.ratingBar.RatingBarExample;
+import com.example.androidwidgets.search_view.SearchViewActivity;
+import com.example.androidwidgets.search_view.SearchView_TollBar;
 import com.example.androidwidgets.seekbar.Seek_Bar_Example;
 import com.example.androidwidgets.spinerPackage.SpinnerExample;
 import com.example.androidwidgets.time_picker_package.Time_Picker_Example;
@@ -77,6 +79,12 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.progress_btn)
     Button button_prograss;
+
+    @BindView(R.id.serach_view_button)
+    Button button_searchView;
+
+    @BindView(R.id.serachView_tollbar)
+    Button  button_tollbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -166,6 +174,15 @@ public class MainActivity extends AppCompatActivity {
     public void button_progress() {
         startActivity(new Intent(MainActivity.this, Prograss_Bar_Example.class));
 
+    }
+    @OnClick(R.id.serach_view_button)
+    public void button_searchView(){
+        startActivity(new Intent(MainActivity.this, SearchViewActivity.class));
+
+    }
+    @OnClick(R.id.serachView_tollbar)
+    public void button_tollbar(){
+        startActivity(new Intent(MainActivity.this, SearchView_TollBar.class));
     }
 
     }

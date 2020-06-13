@@ -28,4 +28,5 @@ dependencies {
     // ButterKnife Dependencies By Shubham Chauhan
     implementation 'com.jakewharton:butterknife:8.3.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
